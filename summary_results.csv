@@ -1,0 +1,10 @@
+model,condition,forward_acc,reverse_acc,n,RAG_score
+llama-3.1-8b-instant,cot,0.13,0.1,500,0.03
+llama-3.1-8b-instant,few_shot,0.316,0.142,500,0.17400000000000002
+llama-3.1-8b-instant,zero_shot,0.434,0.252,500,0.182
+llama-3.3-70b-versatile,cot,0.114,0.042,500,0.07200000000000001
+llama-3.3-70b-versatile,few_shot,0.2,0.15,500,0.05000000000000002
+llama-3.3-70b-versatile,zero_shot,0.674,0.514,500,0.16000000000000003
+meta-llama/llama-4-scout-17b-16e-instruct,cot,0.808,0.71,500,0.09800000000000009
+meta-llama/llama-4-scout-17b-16e-instruct,few_shot,0.402,0.372,500,0.030000000000000027
+meta-llama/llama-4-scout-17b-16e-instruct,zero_shot,0.232,0.23,500,0.0020000000000000018
